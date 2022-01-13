@@ -1,4 +1,4 @@
-package infoaryan.in.hc05_bluetooth;
+package coxtuneslab.io.hc05_bluetooth;
 
 import androidx.appcompat.app.AppCompatActivity;
 

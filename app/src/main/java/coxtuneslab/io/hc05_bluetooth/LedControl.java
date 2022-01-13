@@ -1,4 +1,4 @@
-package infoaryan.in.hc05_bluetooth;
+package coxtuneslab.io.hc05_bluetooth;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,6 +9,7 @@ import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -16,6 +17,7 @@ import android.widget.Toast;
 
 import java.io.IOException;
 import java.util.UUID;
+
 
 public class LedControl extends AppCompatActivity {
 
@@ -36,6 +38,8 @@ public class LedControl extends AppCompatActivity {
 
         Intent intent = getIntent();
         address = intent.getStringExtra(MainActivity.EXTRA_ADDRESS);
+
+
 
         btn1 =  findViewById(R.id.button2);
         btn2 =  findViewById(R.id.button3);
